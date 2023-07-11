@@ -250,7 +250,7 @@ body{
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    margin-top: 50px;
+    padding-top: 40px;
 }
 .container-final-para{
     color: rgba(39, 39, 39, 0.60);
@@ -293,9 +293,9 @@ body{
     font-family: Lato;
     font-size: 48px;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 800px;
     line-height: normal;
-    margin-top: 100px;
+    padding-top: 60px;
 }
 span{
     color: #E55473;
@@ -318,6 +318,34 @@ span{
     font-weight: 400;
     line-height: normal;
 }
-
+/*extra section*/
+.black-service{
+    background-color: rgb(159, 162, 165);
+    color: #202563;
+    margin-top: 20px;
+    padding-bottom: 80px;
+}
+.icon1{
+    width: 50px;
+}
+.box{
+    height: 280px;
+    width: 280px;
+    box-shadow: 1px 1px 2px black 0 0 25px rgb(76, 86, 87) 0 0 5px rgb(93, 93, 223);
+    background-color: rgb(81, 105, 105);
+    color: whitesmoke;
+    text-align: center;
+    padding: 25px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.t1{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+}
 
 

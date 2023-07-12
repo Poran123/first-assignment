@@ -1,143 +1,137 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="image/home icon.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
-
-    <title>First Assignment</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="./index.css">
+	<title>Welcome to the realm of flowers</title>
 </head>
 <body>
-    <section>
-        <div class="header-part">
-            <div class="header-text">
-                <h1 class="heading-title">Let's make <br> beautiful flowers a <br> part of your life</h1>
-                <p class="heading-description">It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout. The point of using Lorem Ipsum is <br>that it has a more-or-less normal distribution of letters.</p>
-                <button class="btn-primary">Shop Now</button>
-            </div>
-            <div>
-                <img class="profile-pic" src="flower-shop-assignment-main/Flower Asset/pngwing 6.png" alt="" >
+	<!-- i haven't used bootstrap or any frameworks. Just maintained the structure of bootstrap. That's it:) -->
+
+	<!-- top section -->
+	<section class="top">
+		<div class="container">
+			<div class="row">
+				<div class="col-50">
+					<h1>Let's make beautiful flowers a part of your life.</h1>
+					<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
+					<button class="btn">Shop now</button>
+				</div>
+				<div class="col-50" style="text-align: end;">
+					<img src="./assets/img/pngwing 10.png" alt="flower_1">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- feature section -->
+	<section class="feature">
+		<div class="container">
+			<div class="row">
+				<div class="col-100">
+					<h1 class="section-header">Our Featured Flowers</h1>
+					<p class="section-title">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-100 showcase-box">
+					<div class="showcase">
+						<div class="image-wrapper" style="background: #F2DEE7;">
+							<img src="assets/img/pngwing 6.png" alt="flower_2">
+						</div>
+						<p class="flower-name">Pink Flower tree</p>
+					</div>
+					<div class="showcase">
+						<div class="image-wrapper" style="background: #DAEFF1;">
+							<img src="assets/img/pngwing 5.png" alt="flower_3">
+						</div>
+						<p class="flower-name">Bouqet Flower tree</p>
+					</div>
+					<div class="showcase">
+						<div class="image-wrapper" style="background: #E3ECDB;">
+							<img src="assets/img/pngwing 7.png" alt="flower_4">
+						</div>
+						<p class="flower-name">Yellow Flower tree</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- hot-deal section -->
+	<section class="hot-deal">
+		<div class="container">
+			<div class="row">
+				<div class="col-50" style="text-align: center;">
+					<h1>Hot Deal ! Sale Up To <span style="color: #E86884;">25% Off</span></h1>
+					<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+					<button class="btn">Shop now</button>
+				</div>
+				<div class="col-50" style="text-align: center;">
+					<img src="./assets/img/pngwing 8.png" alt="flower_1">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- social section -->
+	<section class="social">
+		<div class="container">
+			<div class="row">
+				<div class="col-100">
+					<h1 class="section-header">Instagram</h1>
+					<p class="section-title">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-100 showcase-box">
+					<img src="assets/img/Flower 01.png" alt="flower_5">
+					<img src="assets/img/Rectangle 4.png" alt="flower_6">
+					<img src="assets/img/Rectangle 5.png" alt="flower_7">
+					<img src="assets/img/Rectangle 6.png" alt="flower_8">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- mail section -->
+	<section class="mail">
+		<div class="container">
+			<div class="row">
+				<div class="col-100">
+					<h1>Get The Latest Deals</h1>
+					<p>$30 coupon for first shopping</p>
+					<form>
+						<input class="email-section" type="email" placeholder="Enter your email here....">
+                        <button class="btn">Subscribe</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- map section -->
+    <section class="map">
+        <div class="container">
+            <div class="row">
+                <div class="col-100">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116872.02915962003!2d90.2315274433594!3d23.738430300000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b96540aa079f%3A0x308b8624f46acfe3!2sRoadside%20Flower%20Shop!5e0!3m2!1sen!2sbd!4v1689095550779!5m2!1sen!2sbd" height="450" style="border:0; width: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
         </div>
     </section>
-    <main>
-        <!--Bonus Part-->
-        <section>
-            <div class="bonus-head">
-                <h1 class="bonus-h">Our Featured Flowers</h1>
-                <p>It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout.</p>
-            </div>
-            <div class="box" >
-                <div class="image-1">
-                    <img class="img-colour-1" class="image-back" src="flower-shop-assignment-main/Flower Asset/pngwing 6.png" alt="">
-    
-                </div>
-                <div class="image-2">
-                    <img class="img-colour-2" src="flower-shop-assignment-main/Flower Asset/pngwing 5.png" alt="">
-                    
-                </div>
-                <div class="image-3">
-                    <img class="img-colour-3" src="flower-shop-assignment-main/Flower Asset/pngwing 7.png" alt="">
-                    
-                </div>
-            </div>
-            <div class="h4-p">
-            <div>
-                <h4>Pink Flower Tree</h4>
-            </div>
-            <div>
-                <h4>Pink Flower Tree</h4>
-            </div>
-            <div>
-                <h4>Pink Flower Tree</h4>
-            </div>
-        </div>
-            
-        </section>
-     <!--main part-->
-        <section>
-            <div class="section-3">
-                <div class="section-part-3">
-                    <h1 class="section-3-h">Hot Deal ! Sale Up To 25% <span class="off">Off</span></h1>
-                    <p class="section-3-p">It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout.</p>
-                    <button class="btn">Sign Up</button>
-                </div>
-                <div>
-                    <img class="section-3-img" src="flower-shop-assignment-main/Flower Asset/pngwing 8.png" alt="">
-                </div>
-            </div>
-        </section>
-        <!--another section-->
-        <section>
-            <div class="instagram">
-                <div>
-                    <h1 class="container-title">Instagram</h1>
-                    <p class="container-paragrahp">It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout.</p>
-                </div>
-                <div class="container-rec-img">
-                    <div class="container-rec-img-1" >
-                        <img src="flower-shop-assignment-main/Flower Asset/Flower 01.png" alt="">
-                    </div>
-                    <div class="container-rec-img-2">
-                        <img src="flower-shop-assignment-main/Flower Asset/Rectangle 4.png" alt="">
-                    </div>
-                    <div class="container-rec-img-3">
-                        <img src="flower-shop-assignment-main/Flower Asset/Rectangle 5.png" alt="">
-                    </div>
-                    <div class="container-rec-img-4">
-                        <img src="flower-shop-assignment-main/Flower Asset/Rectangle 6.png
-                        " alt="">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--final section-->
-        <section>
-            <div class="container-final-section">
-                <div>
-                    <h1 class="container-final-title">Get The Latest Deals</h1>
-                    <p class="container-final-para">$30 coupon for first shopping</p>
-                </div>
-                <div>
-                    <input class="input" type="text" placeholder="Enter your email here....">
-                    <button class="subcribe">Subcribe</button>
-                </div>
-            </div>
-        </section>
-    </main>
-    <!--extra section -->
-    <section class="black-service">
-        <h1 class="t1">Our Services</h1>
-        <div class="service-container">
-            <div class="box1">
-                <img class="icon1" src="image/web.png" alt="">
-                <h2 class="box-title">Web Development</h2>
-                <p class="box-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, earum.</p>
-                <button class="btn">Details</button>
-            </div>
-            <div class="box1">
-                <img class="icon1" src="image/web.png" alt="">
-                <h2 class="box-title">Web Development</h2>
-                <p class="box-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, earum.</p>
-                <button class="btn">Details</button>
-            </div>
-            <div class="box1">
-                <img class="icon1" src="image/web.png" alt="">
-                <h2 class="box-title">Web Development</h2>
-                <p class="box-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, earum.</p>
-                <button class="btn">Details</button>
-            </div>
-        </div>
-    </section>
-    <!--footer part-->
-    <footer>
-        <div class="footer">
-            <h1 class="footer-title"><span>Flower</span>Shop</h1>
-            <p class="footer-para">It is a long established fact that a reader will be distracted by the readable <br>content of a page when looking at its layout.</p>
-            <p class="footer-p">@2020-2023, FlowerShop.com. All rights reserved. </p>
-        </div>
-    </footer>
-<!---->
+
+	<!-- footer section -->
+	<footer>
+		<div class="row">
+			<div class="col-100">
+				<h1><span style="color: #E55473;">Flower</span>Shop</h1>
+				<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+				<span style="color: #918787;">@2020-2023, FlowerShop.com. All rights reserved.</span>
+			</div>
+		</div>
+	</footer>
+
 </body>
 </html>
